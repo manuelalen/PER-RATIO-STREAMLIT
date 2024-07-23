@@ -1,0 +1,15 @@
+[secrets]
+gcp_service_account = """
+{
+  "type": "service_account",
+  "project_id": "perproject-430315",
+  "private_key_id": "15256a2085b0f50eaaee6f93af5b397154829a4e",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDpiPEODi75dixm\nsPOjSM8SOJMvPQGlX5hruZfrk3tQRprPjxWLgZn0OqIpQxFT/qjzE16Y4dqXdztY\nG6R/GE9Yk+8xsnQ/ADCMnGq6rrmRiU820oT2WlgyquvnKUDh5OosUXXhAENQlp9f\nn+VF0AN9VIOWoy0DN1fWPENQubVOd3UJXpM8Iwon5pP3hGy0fPHesiXyp3ZymlJf\nclFjC/5LDGZr7SGFuhX8r7XEoZ/Ul6ozWJ5wfmpOHzABiEVUxNsfPvjfT6jre+dk\nkxQ57SPgUedwQYgzsoH8q5rDJYlJGiXLCtGgKctQ7eX8mvwEPLOmGcuhri5Csj1Q\n/4OvpJ6HAgMBAAECggEAC8hyYS3WBkAwJ/5FogzKZeD04YKdJ/rqyy9SEFDLUqw9\nThD/b/UvZLiQoK8Bm3tTNZsvQAd6lVSEFK37CW6bPPI5311hqswXpwCSt1iZhFOp\nQNreWo+0Y4S8N62dLcifCB1paoYuNKK6PS4+zdxGUMyILHw53oUBqY2LgpyGyVlP\noAzBWb348KgMFfkaD4+6nnAUDFZdaRMmdEfJQNc/umnZiKgkxVKPaaDkn19538J8\nKKDcDwWjsU0LVZGajNs2QSJMM3/W/0HKIgczmgq0w9hZoKwmJuL/8IWeHNmX/NPC\nTYEvMqnXxDjr2BJVUSgpXElJaxvD1nklbksouYZSAQKBgQD6hbnFx6qYUZYoxB2b\n+xb+60XtVsWSCPLPcbBrLaoUH5BM7++z2Vp8nYW3BDynBabv9FtFgnp/IoVjk8Yg\nMrObZ/Rb8yZwaZs7CBQOJoAHrBCa6paxFLane5+Nn/KFTkEa0HmOmB+979X2locb\nrEVvxC03c6ZaA8vHzO90L4PUSwKBgQDupCFkExPmy4CRV1XiOKPsEs0PmJlK2yjJ\nX3EpQbsOyh+3bqWt3pfM3ebTyfyeB2CHAu/FiE9FDw2sBR42mB/fYSiMXtd6pEtN\nGRby/G9EXi6AQyfVpbUhqeg8BHXxulnvoRxAq0MNHbytq5YknYdhRGcuraEZBvqY\ncxaJW3QhNQKBgQDVIifmh/QvGlox3IeESJ5LykX3obb8gvhwXDzHMlZcQG43xnmb\n/PLqyekUx1oCjuBzjOSJwnQM7YWmLfaFNh1vvYU7JSYyxOX31uuZDlAmNtD5u1Lw\n3Lp4ysf3aXieyPDCq1J/ahS3NvBFldLkTC/W4oPFhXKlak1YcpXVtwbk+QKBgFiI\n+AJiuY10jnxdhHVrQhWBXCafHLAS4uzixd7ijf2Mq3uoRztcS8EryklktJ4EaqFs\nS3xjd9VNImthcrYadiivqRV60kKj1XQDDOqVEMqyjlnzkEHJOowEty4dEYze8CLh\nCNRNNZEWKTvdXtSyxNknQYilzhC08B/DAudu0ITJAoGAOfxp/hYyLpwDs7Zm2dzO\nO23+ZlqbLDAjbd0l8Fli459meZt0PWgtP4XKZqdDy0kvsiqJ9mdaSTp+/VFmYi1t\n0Oxc5BBoXPmvIiXLgydwLHXfn44X2aTWA3h8TQsuUkZqAdmtNJb5kdvCYZtX3M6U\n00cVadfriX9NlA1NBHN4JCk=\n-----END PRIVATE KEY-----\n",
+  "client_email": "sheetsapi@perproject-430315.iam.gserviceaccount.com",
+  "client_id": "111872214863076261049",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/sheetsapi%40perproject-430315.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
