@@ -1,21 +1,9 @@
 import streamlit as st
 import pandas as pd
-import gspread
-from oauth2client.service_account import ServiceAccountCredentials
 import matplotlib.pyplot as plt
 
-# Configuración de Google Sheets
-scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
-# Leer las credenciales desde los secretos de Streamlit
-creds_dict = json.loads(st.secrets["gcp_service_account"])
-client = gspread.authorize(creds_dict)
-
-# Reemplaza 'your-google-sheet-id' con el ID de tu Google Sheets
-sheet = client.open_by_key("1kfWmcm3XaPjpJmiF0EAFTnjUA49WVZjX7MNY4RRQo6k").sheet1
-
-# Cargar los datos
-data = sheet.get_all_records()
-df = pd.DataFrame(data)
+# Cargar los datos desde el archivo Excel
+df = pd.read_excel('PER.xlsx')
 
 # Calcular el P/E ratio promedio por industria
 average_pe = df.groupby('Industry')['P/E Ratio'].mean().reset_index()
