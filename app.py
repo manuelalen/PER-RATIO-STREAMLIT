@@ -6,8 +6,9 @@ import matplotlib.pyplot as plt
 
 # Configuración de Google Sheets
 scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
-creds = ServiceAccountCredentials.from_json_keyfile_name("credentials.json", scope)
-client = gspread.authorize(creds)
+# Leer las credenciales desde los secretos de Streamlit
+creds_dict = json.loads(st.secrets["gcp_service_account"])
+client = gspread.authorize(creds_dict)
 
 # Reemplaza 'your-google-sheet-id' con el ID de tu Google Sheets
 sheet = client.open_by_key("1kfWmcm3XaPjpJmiF0EAFTnjUA49WVZjX7MNY4RRQo6k").sheet1
