@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Cargar los datos desde el archivo Excel
-df = pd.read_excel('PER.xlsx')
+df = pd.read_excel('PERs.xlsx')
 
 # Calcular el P/E ratio promedio por industria
 average_pe = df.groupby('Industry')['P/E Ratio'].mean().reset_index()
